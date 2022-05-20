@@ -22,10 +22,7 @@ addToDoButton.addEventListener('click', function(){
    // paragraph.addEventListener('dblclick', function(){
      //   toDoContainer.removeChild(paragraph);
    // })
-    
+   Delete.addEventListener('click',()=>{
+    toDoContainer.removeChild(paragraph)
 })
-
-Delete.addEventListener('click',()=>{
-    toDoContainer.remove()
 })
-
