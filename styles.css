@@ -6,6 +6,11 @@ html,body{
 
 .container{
     width:360px;
+    position: relative;
+margin:auto;
+padding:5px;
+border:1px solid #060000;
+background:#924646; 
 }
 
 #inputfield{
@@ -34,4 +39,10 @@ html,body{
     margin: 0;
     cursor: pointer;
     font-size: 20px;
+}
+
+.deleteall{
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
 }
